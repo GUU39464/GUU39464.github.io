@@ -1,0 +1,11 @@
+{
+  "name": "余佳灵｜AIGC 视觉设计作品集",
+  "short_name": "余佳灵作品集",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080a09",
+  "theme_color": "#080a09",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

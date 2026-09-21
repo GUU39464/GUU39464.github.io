@@ -22,3 +22,20 @@
 .project-toggle:focus-visible{outline:3px solid #d7ff55;outline-offset:5px}
 @media(hover:hover){.project-toggle:hover .project-open{background:#d8efaa;color:#152018}.project-accordion .project-toggle:hover .project-open{background:#ff6b3d;color:#111}}
 @media(max-width:700px){.project-toggle .project-open{font-size:12px;min-width:148px;min-height:48px;padding:13px 17px;right:16px;bottom:36px}}
+/* Keyboard users can bypass the visual hero and navigation. */
+.skip-link {
+  position: fixed;
+  z-index: 10000;
+  top: 12px;
+  left: 12px;
+  padding: 10px 14px;
+  color: #080a09;
+  background: #caff3d;
+  border: 1px solid currentColor;
+  transform: translateY(-160%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
