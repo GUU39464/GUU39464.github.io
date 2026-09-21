@@ -1,0 +1,24 @@
+/* Complete title glyphs and readable profile sections */
+.hero-video-title.hero-video-title-single{font-size:clamp(48px,7.2vw,138px);line-height:1.22;letter-spacing:-.055em;bottom:clamp(90px,10vh,130px);margin:0;max-width:calc(100% - 2 * var(--pad))}
+.hero-video-title>span{overflow:visible;padding-block:.08em}.hero-video-title i{animation:none;transform:none}
+#about .home-bio p,#about .resume-job-meta p,#about .resume-job-body>p,#about .resume-job-body dd,#about .resume-other p{font-size:16px;line-height:1.9}
+#about .home-bio a,#about .home-bio>span,#about .resume-job-meta>span,#about .resume-other>div>span,#about .resume-job-body dt{font-size:14px}
+#about .eyebrow,#about .toolkit-head>span,#about .home-section-label>span{font-size:12px}
+#about .tool-group li strong{font-size:clamp(21px,2vw,30px)}#about .tool-group li em{font-size:13px}
+#about .resume-job-body dl>div{grid-template-columns:84px 1fr}
+#about .home-identity,#about .resume-career,#about .toolkit-panel{position:relative;isolation:isolate}
+#about .home-identity:after,#about .resume-career:after,#about .toolkit-panel:after{content:'';position:absolute;top:0;left:var(--pad);height:2px;width:70px;background:#d7ff55;transform:scaleX(.25);transform-origin:left;transition:transform .7s ease,opacity .5s;opacity:.35}
+#about .is-in-view:after{transform:scaleX(1);opacity:1}
+#about .resume-other>div,#about .resume-job-body dl>div,#about .tool-group li{transition:background .25s,color .25s,padding .25s}
+@media(hover:hover){#about .resume-other>div:hover,#about .resume-job-body dl>div:hover,#about .tool-group li:hover{background:#d7ff550b}#about .tool-group li:hover{padding-left:12px;color:#d7ff55}}
+.contact.section-pad{min-height:520px;padding-top:72px;padding-bottom:46px;display:flex;flex-direction:column;justify-content:space-between}.contact .contact-main{margin-top:44px}.contact .contact-main h2{font-size:clamp(44px,5.8vw,96px)}.contact .contact-links{margin-top:60px}
+@media(max-width:700px){.hero-video-title.hero-video-title-single{font-size:clamp(42px,11.8vw,76px);max-width:calc(100% - 44px);left:22px;right:22px;bottom:112px;line-height:1.25}#about .home-bio p,#about .resume-job-body>p,#about .resume-job-body dd,#about .resume-other p{font-size:15px}#about .resume-job-body dl>div{grid-template-columns:1fr;gap:7px}#about .tool-group li strong{font-size:22px}.contact.section-pad{min-height:460px;padding-top:48px;padding-bottom:34px}.contact .contact-main h2{font-size:clamp(38px,10.5vw,60px)}.contact .contact-main{margin-top:30px}.contact .contact-links{margin-top:38px}}
+@media(prefers-reduced-motion:reduce){#about *{transition:none!important}#about .home-identity:after,#about .resume-career:after,#about .toolkit-panel:after{transition:none;transform:none}}
+
+/* Cover-wide interaction and larger case entry */
+.project-toggle .project-open{font-size:clamp(13px,1vw,16px);padding:17px 25px;min-height:54px;min-width:180px;display:flex;align-items:center;justify-content:center;right:24px;bottom:24px;letter-spacing:.06em}
+.project-media-nova-motion{cursor:pointer}.project-media-nova-motion>*{pointer-events:none}
+.inline-case-shell{scroll-margin-top:86px}
+.project-toggle:focus-visible{outline:3px solid #d7ff55;outline-offset:5px}
+@media(hover:hover){.project-toggle:hover .project-open{background:#d8efaa;color:#152018}.project-accordion .project-toggle:hover .project-open{background:#ff6b3d;color:#111}}
+@media(max-width:700px){.project-toggle .project-open{font-size:12px;min-width:148px;min-height:48px;padding:13px 17px;right:16px;bottom:36px}}

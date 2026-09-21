@@ -1,0 +1,23 @@
+/* Cover hierarchy and compact contact, September 2026 */
+.cover-caption.cover-kv{top:22%;left:6.5%;max-width:75%}
+.cover-kv h3{font-size:clamp(42px,6.2vw,90px);line-height:1.12;letter-spacing:-.045em;margin-bottom:26px}
+.cover-kv .kv-line{gap:.06em}
+.cover-kv .kv-line-offset{margin-left:0;margin-top:.15em}
+.cover-kv .kv-light{font-size:.78em;font-weight:300;letter-spacing:-.05em;margin-right:.05em}
+.cover-kv strong{font-weight:800;letter-spacing:-.055em}
+.cover-kv .kv-line-offset strong{color:#d8efaa}
+.cover-kv i{font-size:.42em}
+.cover-kv p{font-size:12px;letter-spacing:.1em}
+.contact.section-pad{min-height:0;padding-top:56px;padding-bottom:32px}
+.contact .contact-main{margin-top:40px;gap:32px}
+.contact .contact-main h2{font-size:clamp(36px,5.2vw,76px);line-height:1.12;letter-spacing:-.055em}
+.contact .contact-links{margin-top:52px;gap:28px}
+@media(max-width:700px){
+.cover-caption.cover-kv{top:24%;left:7%;max-width:86%}
+.cover-kv h3{font-size:clamp(40px,9vw,58px);margin-bottom:22px}
+.cover-kv p{font-size:10px;letter-spacing:.02em}
+.contact.section-pad{padding-top:36px;padding-bottom:26px}
+.contact .contact-main{margin-top:28px;gap:24px}
+.contact .contact-main h2{font-size:40px}
+.contact .contact-links{margin-top:32px;flex-wrap:wrap;gap:18px}
+}

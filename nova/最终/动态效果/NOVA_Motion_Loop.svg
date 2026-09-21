@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<style>
+  .seed{transform-box:fill-box;transform-origin:center;animation:seed 4s cubic-bezier(.2,.8,.2,1) infinite}
+  .connector{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 4s ease-in-out infinite}
+  .m1{animation:m1 4s ease-in-out infinite}.m2{animation:m2 4s ease-in-out infinite}.m3{animation:m3 4s ease-in-out infinite}.m4{animation:m4 4s ease-in-out infinite}
+  .brand{animation:brand 4s ease-in-out infinite}.tag{animation:tag 4s ease-in-out infinite}
+  @keyframes seed{0%{transform:scale(.05);opacity:0}12%,22%{transform:scale(1);opacity:1}72%{transform:scale(1);opacity:1}92%,100%{transform:scale(.05);opacity:0}}
+  @keyframes draw{0%,18%{stroke-dashoffset:420}48%,78%{stroke-dashoffset:0}95%,100%{stroke-dashoffset:-420}}
+  @keyframes m1{0%,22%{opacity:0;transform:translate(-60px,20px)}40%,82%{opacity:1;transform:none}96%,100%{opacity:0}}
+  @keyframes m2{0%,30%{opacity:0;transform:translate(0,70px)}48%,82%{opacity:1;transform:none}96%,100%{opacity:0}}
+  @keyframes m3{0%,38%{opacity:0;transform:translate(70px,-20px)}56%,82%{opacity:1;transform:none}96%,100%{opacity:0}}
+  @keyframes m4{0%,46%{opacity:0;transform:translate(80px,60px)}64%,82%{opacity:1;transform:none}96%,100%{opacity:0}}
+  @keyframes brand{0%,58%{opacity:0;transform:translateY(28px)}72%,90%{opacity:1;transform:none}100%{opacity:0}}
+  @keyframes tag{0%,65%{opacity:0}78%,90%{opacity:1}100%{opacity:0}}
+</style>
+<rect width="1440" height="1000" fill="#0b0b0f"/><g stroke="#34343a" stroke-width="1" opacity=".28"><line x1="64" y1="0" x2="64" y2="1000"/><line x1="173.333" y1="0" x2="173.333" y2="1000"/><line x1="282.666" y1="0" x2="282.666" y2="1000"/><line x1="391.999" y1="0" x2="391.999" y2="1000"/><line x1="501.332" y1="0" x2="501.332" y2="1000"/><line x1="610.665" y1="0" x2="610.665" y2="1000"/><line x1="719.998" y1="0" x2="719.998" y2="1000"/><line x1="829.331" y1="0" x2="829.331" y2="1000"/><line x1="938.664" y1="0" x2="938.664" y2="1000"/><line x1="1047.9969999999998" y1="0" x2="1047.9969999999998" y2="1000"/><line x1="1157.33" y1="0" x2="1157.33" y2="1000"/><line x1="1266.663" y1="0" x2="1266.663" y2="1000"/><line x1="1375.996" y1="0" x2="1375.996" y2="1000"/><line x1="0" y1="84" x2="1440" y2="84"/><line x1="0" y1="176" x2="1440" y2="176"/><line x1="0" y1="268" x2="1440" y2="268"/><line x1="0" y1="360" x2="1440" y2="360"/><line x1="0" y1="452" x2="1440" y2="452"/><line x1="0" y1="544" x2="1440" y2="544"/><line x1="0" y1="636" x2="1440" y2="636"/><line x1="0" y1="728" x2="1440" y2="728"/><line x1="0" y1="820" x2="1440" y2="820"/><line x1="0" y1="912" x2="1440" y2="912"/></g>
+<text x="64" y="54" fill="#f3f0e8" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">NOVA / MOTION SYSTEM</text>
+<text x="1376" y="54" text-anchor="end" fill="#ff6b3d" font-family="Consolas, monospace" font-size="11">04 SEC LOOP</text>
+<line class="connector" x1="720" y1="500" x2="420" y2="320" stroke="#ff6b3d" stroke-width="3"/>
+<line class="connector" x1="720" y1="500" x2="1010" y2="296" stroke="#ff6b3d" stroke-width="3"/>
+<line class="connector" x1="720" y1="500" x2="1080" y2="664" stroke="#ff6b3d" stroke-width="3"/>
+<line class="connector" x1="720" y1="500" x2="446" y2="690" stroke="#ff6b3d" stroke-width="3"/>
+<circle class="seed" cx="720" cy="500" r="42" fill="#ff6b3d"/>
+<g class="m1"><rect x="294" y="218" width="252" height="204" fill="#f3f0e8"/><text x="318" y="258" fill="#0b0b0f" font-family="Consolas, monospace" font-size="12">01 / SOCIAL</text></g>
+<g class="m2"><rect x="906" y="188" width="208" height="260" fill="#ff6b3d"/><text x="930" y="230" fill="#0b0b0f" font-family="Consolas, monospace" font-size="12">02 / POSTER</text></g>
+<g class="m3"><rect x="970" y="566" width="220" height="196" fill="#7657ff"/><text x="994" y="608" fill="#f3f0e8" font-family="Consolas, monospace" font-size="12">03 / VIDEO</text></g>
+<g class="m4"><rect x="316" y="594" width="260" height="174" fill="#f3f0e8"/><text x="340" y="636" fill="#0b0b0f" font-family="Consolas, monospace" font-size="12">04 / LANDING</text></g>
+<g class="brand"><text x="720" y="520" text-anchor="middle" fill="#f3f0e8" font-family="Arial, sans-serif" font-size="178" font-weight="700" letter-spacing="-14">NOVA</text></g>
+<g class="tag"><text x="720" y="592" text-anchor="middle" fill="#f3f0e8" font-family="Arial, sans-serif" font-size="30">ONE IDEA. <tspan fill="#ff6b3d">EVERY CHANNEL.</tspan></text></g>
+</svg>

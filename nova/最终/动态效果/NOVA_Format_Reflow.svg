@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820">
+  <style>
+    text{font-family:Arial,"Microsoft YaHei",sans-serif}.mono{font-family:Consolas,monospace;letter-spacing:1.2px}
+    .line{stroke-dasharray:780;animation:line 6s ease-in-out infinite}.brief{transform-box:fill-box;transform-origin:center;animation:brief 6s ease-in-out infinite}.f{transform-box:fill-box;transform-origin:center}.f1{animation:f1 6s ease-in-out infinite}.f2{animation:f2 6s ease-in-out infinite}.f3{animation:f3 6s ease-in-out infinite}.f4{animation:f4 6s ease-in-out infinite}.caption{animation:caption 6s ease-in-out infinite}
+    @keyframes line{0%,15%{stroke-dashoffset:780}45%,80%{stroke-dashoffset:0}96%,100%{stroke-dashoffset:-780}}
+    @keyframes brief{0%,100%{transform:scale(.55);opacity:0}10%,78%{transform:scale(1);opacity:1}92%{transform:scale(.55);opacity:0}}
+    @keyframes f1{0%,24%{transform:translate(428px,120px) scale(.35);opacity:0}42%,82%{transform:none;opacity:1}96%,100%{opacity:0}}
+    @keyframes f2{0%,32%{transform:translate(150px,118px) scale(.35);opacity:0}50%,82%{transform:none;opacity:1}96%,100%{opacity:0}}
+    @keyframes f3{0%,40%{transform:translate(-132px,104px) scale(.35);opacity:0}58%,82%{transform:none;opacity:1}96%,100%{opacity:0}}
+    @keyframes f4{0%,48%{transform:translate(-420px,120px) scale(.35);opacity:0}66%,82%{transform:none;opacity:1}96%,100%{opacity:0}}
+    @keyframes caption{0%,58%{opacity:0;transform:translateY(20px)}72%,88%{opacity:1;transform:none}98%,100%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}.f,.brief,.caption{opacity:1}}
+  </style>
+  <rect width="1440" height="820" fill="#ff6b3d"/>
+  <g stroke="#cf6649" stroke-width="1" opacity=".55"><path d="M64 0V820M282 0V820M500 0V820M718 0V820M936 0V820M1154 0V820M1372 0V820"/><path d="M0 82H1440M0 266H1440M0 450H1440M0 634H1440"/></g>
+  <text x="64" y="52" fill="#0b0b0f" font-size="11" font-weight="700" class="mono">03 / FORMAT REFLOW</text>
+  <text x="1376" y="52" fill="#f3f0e8" font-size="11" text-anchor="end" class="mono">06 SEC LOOP</text>
+  <text x="64" y="160" fill="#0b0b0f" font-size="68" font-weight="700" letter-spacing="-4">SAME MESSAGE.</text><text x="64" y="224" fill="#f3f0e8" font-size="68" font-weight="700" letter-spacing="-4">NEW PROPORTION.</text>
+  <line class="line" x1="720" y1="380" x2="214" y2="524" stroke="#0b0b0f" stroke-width="3"/><line class="line" x1="720" y1="380" x2="536" y2="524" stroke="#0b0b0f" stroke-width="3"/><line class="line" x1="720" y1="380" x2="874" y2="524" stroke="#0b0b0f" stroke-width="3"/><line class="line" x1="720" y1="380" x2="1190" y2="524" stroke="#0b0b0f" stroke-width="3"/>
+  <g class="brief"><rect x="654" y="314" width="132" height="132" fill="#0b0b0f"/><text x="674" y="348" fill="#f3f0e8" font-size="10" class="mono">BRIEF / 01</text><circle cx="720" cy="394" r="12" fill="#ff6b3d"/></g>
+  <g class="f f1"><rect x="96" y="488" width="236" height="236" fill="#f3f0e8"/><text x="116" y="522" fill="#0b0b0f" font-size="10" class="mono">SOCIAL / 01:01</text><text x="116" y="650" fill="#0b0b0f" font-size="30" font-weight="700">ONE IDEA.</text></g>
+  <g class="f f2"><rect x="446" y="454" width="180" height="270" fill="#0b0b0f"/><text x="466" y="488" fill="#f3f0e8" font-size="10" class="mono">POSTER / 04:05</text><text x="466" y="610" fill="#f3f0e8" font-size="25" font-weight="700">EVERY</text><text x="466" y="640" fill="#ff6b3d" font-size="25" font-weight="700">FORMAT.</text></g>
+  <g class="f f3"><rect x="826" y="418" width="118" height="306" fill="#7657ff"/><text x="846" y="452" fill="#f3f0e8" font-size="10" class="mono">VIDEO / 09:16</text><text x="846" y="602" fill="#f3f0e8" font-size="42" font-weight="700">09</text><text x="846" y="646" fill="#f3f0e8" font-size="42" font-weight="700">16</text></g>
+  <g class="f f4"><rect x="1062" y="524" width="282" height="159" fill="#f3f0e8"/><text x="1082" y="558" fill="#0b0b0f" font-size="10" class="mono">LANDING / 16:09</text><rect x="1082" y="584" width="116" height="70" fill="#0b0b0f"/><rect x="1214" y="584" width="108" height="28" fill="#ff6b3d"/></g>
+  <g class="caption"><text x="64" y="780" fill="#0b0b0f" font-size="15" font-weight="700">PRIORITY</text><text x="252" y="780" fill="#0b0b0f" font-size="15" font-weight="700">REFLOW</text><text x="426" y="780" fill="#0b0b0f" font-size="15" font-weight="700">CROP</text><text x="564" y="780" fill="#0b0b0f" font-size="15" font-weight="700">CTA LOCK</text></g>
+</svg>
