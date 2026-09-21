@@ -22,21 +22,18 @@
     <link rel="icon" href="favicon.ico" sizes="32x32" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="base.css?v=20260921" />
-    <link rel="stylesheet" href="v3.css?v=20260921" />
-    <link rel="stylesheet" href="nova-inline.css?v=20260921" />
-    <link rel="stylesheet" href="aigc.css?v=20260921" />
-    <link rel="stylesheet" href="sticky-wall.css?v=20260921" />
-<link rel="stylesheet" href="mingko.css?v=20260921" />
-<link rel="stylesheet" href="resume-home.css?v=20260921" />
-  <link rel="stylesheet" href="portfolio-refinement.css?v=20260921" />
-  <link rel="stylesheet" href="reading-motion.css?v=20260921">
-<link rel="stylesheet" href="home-polish.css?v=20260921">
-<link rel="stylesheet" href="cursor.css?v=20260921">
-<link rel="stylesheet" href="video-project.css?v=20260921">
+    <link rel="stylesheet" href="base.css?v=20260921-2" />
+    <link rel="stylesheet" href="v3.css?v=20260921-2" />
+    <link rel="stylesheet" href="nova-inline.css?v=20260921-2" />
+    <link rel="stylesheet" href="aigc.css?v=20260921-2" />
+    <link rel="stylesheet" href="sticky-wall.css?v=20260921-2" />
+<link rel="stylesheet" href="mingko.css?v=20260921-2" />
+<link rel="stylesheet" href="resume-home.css?v=20260921-2" />
+  <link rel="stylesheet" href="portfolio-refinement.css?v=20260921-2" />
+  <link rel="stylesheet" href="reading-motion.css?v=20260921-2">
+<link rel="stylesheet" href="home-polish.css?v=20260921-2">
+<link rel="stylesheet" href="cursor.css?v=20260921-2">
+<link rel="stylesheet" href="video-project.css?v=20260921-2">
 </head>
   <body>
     <a class="skip-link" href="#main-content">跳到主要内容</a>
@@ -57,8 +54,8 @@
             <div class="film-layer film-layer-b"></div>
             <div class="film-layer film-layer-c"></div>
           </div>
-          <video class="hero-video" muted loop playsinline autoplay poster="assets/videos/showreel.jpg">
-            <source src="assets/videos/showreel.mp4" type="video/mp4" />
+          <video class="hero-video" muted loop playsinline preload="none" poster="assets/videos/showreel.jpg">
+            <source data-src="assets/videos/showreel.mp4" type="video/mp4" />
           </video>
           <div class="video-vignette" aria-hidden="true"></div>
           <div class="video-grain" aria-hidden="true"></div>
@@ -73,10 +70,11 @@
           <span><i>个人作品集</i></span>
         </h1>
 
-        <button type="button" class="hero-play-toggle" aria-label="暂停首屏视频">暂停 II</button><div class="hero-video-controls hero-fade">
-          <button type="button" data-sound-toggle aria-label="打开或关闭视频声音">SOUND OFF</button>
+        <button type="button" class="hero-play-toggle" aria-label="播放首屏视频">播放 ▶</button><div class="hero-video-controls hero-fade">
+          <button type="button" data-sound-toggle aria-label="开启视频声音" disabled>SOUND OFF</button>
           <span class="video-time"><b data-video-progress>00:00</b> / <span data-video-duration>01:40</span></span>
         </div>
+        <p class="hero-video-status" data-hero-video-status aria-live="polite">点击播放完整混剪</p>
 
         <a class="video-scroll hero-fade" href="#about"><span>SCROLL</span><i>↓</i></a>
       </section>
@@ -177,7 +175,7 @@
 <article class="project project-wide project-featured project-accordion reveal" data-project-accordion>
             <button class="project-toggle" type="button" aria-expanded="false" aria-controls="nova-inline-case" data-project-toggle>
               <div class="project-media project-media-nova-motion">
-                <img src="assets/nova-home-motion.svg" alt="NOVA 六秒动态视觉展示" />
+                <img src="assets/nova-home-motion.svg" alt="NOVA 六秒动态视觉展示" loading="lazy" decoding="async" />
                 <span class="project-number">02</span><span class="project-kind">BRAND · CAMPAIGN</span><span class="project-open" data-project-toggle-label>EXPAND CASE ↓</span>
               </div>
               <div class="project-meta"><div><h3>NOVA / 品牌识别与传播系统</h3><p>个人概念项目 · 品牌识别、传播延展与动态设计</p></div><span>2026</span></div>
@@ -208,7 +206,7 @@
                 <figure class="nova-frame nova-orange nova-reveal"><img src="assets/nova-edited/10_Campaign.svg" alt="NOVA Campaign 系列海报" loading="lazy" width="1440" height="1000" /></figure>
                 <figure class="nova-frame nova-paper nova-reveal"><img src="assets/nova-edited/11_Format_System.svg" alt="NOVA 多尺寸传播适配系统" loading="lazy" width="1440" height="1000" /></figure>
                 <figure class="nova-frame nova-dark nova-reveal"><img src="nova/最终/每一页分图/12_Digital_Experience.png" alt="NOVA 数字产品工作空间" loading="lazy" width="1440" height="1000" /></figure>
-                <section class="nova-motion-insert nova-motion-insert-orange nova-reveal" aria-label="NOVA 多尺寸渠道重排循环动画"><object data="nova/最终/动态效果/NOVA_Format_Reflow.svg" type="image/svg+xml"><img src="nova/最终/每一页分图/12_Digital_Experience.png" alt="NOVA 多尺寸渠道重排" width="1440" height="1000" /></object></section>
+                <section class="nova-motion-insert nova-motion-insert-orange nova-reveal" aria-label="NOVA 多尺寸渠道重排循环动画"><object data="nova/最终/动态效果/NOVA_Format_Reflow.svg" type="image/svg+xml"><img src="nova/最终/每一页分图/12_Digital_Experience.png" alt="NOVA 多尺寸渠道重排" loading="lazy" decoding="async" width="1440" height="1000" /></object></section>
 
                 <section class="nova-chapter nova-paper nova-reveal" id="nova-motion"><div class="nova-index">04 / Motion</div><h2>让图形规则，<br />成为动态节奏。</h2><p>将 Seed → Build → Matrix 的图形变化编排为四秒视觉循环，让静态识别延续到动态展示。</p>
                 </section>
@@ -245,15 +243,15 @@
     </main>
 
     <footer class="site-footer section-pad"><span>© 2026 余佳灵</span><span>DESIGNED FOR CLARITY</span><a href="#top">回到顶部 ↑</a></footer>
-    <script src="v3.js?v=20260921"></script>
-    <script src="aigc-data.js?v=20260921"></script>
-    <script src="aigc.js?v=20260921"></script>
-    <script src="sticky-wall.js?v=20260921"></script>
-<script src="mingko.js?v=20260921"></script>
-  <script src="reading-motion.js?v=20260921"></script>
-<script src="home-polish.js?v=20260921"></script>
-<script src="cursor.js?v=20260921"></script>
-<script src="video-project.js?v=20260921"></script>
+    <script src="v3.js?v=20260921-2"></script>
+    <script src="aigc-data.js?v=20260921-2"></script>
+    <script src="aigc.js?v=20260921-2"></script>
+    <script src="sticky-wall.js?v=20260921-2"></script>
+<script src="mingko.js?v=20260921-2"></script>
+  <script src="reading-motion.js?v=20260921-2"></script>
+<script src="home-polish.js?v=20260921-2"></script>
+<script src="cursor.js?v=20260921-2"></script>
+<script src="video-project.js?v=20260921-2"></script>
 </body>
 </html>
 
