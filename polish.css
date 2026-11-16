@@ -1,0 +1,28 @@
+body{overflow-x:clip}
+.contact:before{left:0;width:100%}
+.tool-gpt>span:first-child{font-size:25px;letter-spacing:-.04em}
+.tool-codex>span:first-child{font-size:42px}
+.ribbon-fallback{overflow-y:hidden;padding-top:20px;padding-bottom:20px}
+html[data-motion="reduced"] .motion-toggle,html[data-motion="reduced"] [data-wall-pause]{display:none}
+@media(prefers-reduced-motion:reduce){.motion-toggle,[data-wall-pause]{display:none}}
+@media(max-width:760px){
+ .project-index{display:flex;flex-direction:column;gap:0}
+ .project-preview{display:block;position:static;order:-1;width:100%;padding:0;margin:0 0 38px}
+ .project-deck{height:310px;max-width:340px;width:94%;margin:5px auto 0}
+ .deck-image{aspect-ratio:1.15}
+ .deck-card{left:5%;width:87%}
+ .deck-card:nth-child(1){transform:translateX(-9%) translateY(17px) rotate(-10deg)}
+ .deck-card:nth-child(2){transform:translateX(0) translateY(7px) rotate(-3deg)}
+ .deck-card:nth-child(3){transform:translateX(7%) translateY(0) rotate(3deg)}
+ .deck-card[data-front=true]{transform:translateX(5%) translateY(-3px) rotate(0deg)}
+ .preview-caption{margin-top:18px;font-size:8px}
+ .project-list{width:100%}
+ .project-row .row-picture{grid-column:1/-1;grid-row:1}
+ .project-row .row-number{grid-column:1;grid-row:2}
+ .project-row .row-name{grid-column:2;grid-row:2}
+ .project-row .row-arrow{grid-column:3;grid-row:2}
+ .project-index:not(.grid-mode) .project-row:first-child .row-picture{display:none}
+ .project-index[data-filter="AI 商业视觉"] .project-preview,.project-index[data-filter="品牌系统"] .project-preview{display:none}
+ .grid-mode .project-preview{display:none}
+ .tool-gpt>span:first-child{font-size:20px}
+}
